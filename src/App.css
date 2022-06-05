@@ -5,14 +5,14 @@
 }
 
 .ant-layout-sider {
-    background-image: linear-gradient(#1e2422, #000000);
+    background-image: linear-gradient(#040616, #0c2049);
     background-attachment:fixed;
-    width: 800px;
+    width: 120px;
     padding: 30px;
 }
 
 .ant-layout-content {
-    background-image: linear-gradient(#494B4A, #030404);
+    background-image: linear-gradient(#0c2049, #040616);
     background-attachment:fixed;
 }
 
@@ -37,7 +37,7 @@
 
 .ant-tabs-tab {
     color: rgb(125, 125, 125);
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 2px;
 }
 
@@ -46,16 +46,16 @@
 }
 
 .ant-tabs-ink-bar {
-    background: #1DB954;
+    background: #fcfcfc;
     width: 10px;
 }
 
 .ant-slider-track {
-    background-color: #1DB954;
+    background-color: #fcfcfc;
 }
 
 .ant-slider:hover .ant-slider-track {
-    background-color: #1DB954;
+    background-color: #fcfcfc;
 }
 
 .ant-slider-handle {
@@ -85,6 +85,7 @@
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
+    padding-right: 25px;
   }
   
   .recentPlayed {
@@ -115,11 +116,12 @@
   .footer {
     position: sticky;
     bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    background-color: #292929;
-    color: rgb(205, 203, 203) !important; 
+    background-color: #76a7df;
+    color: rgb(255, 255, 255) !important; 
   }
 
 

@@ -8,7 +8,8 @@
 }
 
 .albumCover {
-    width:200px;
+    width:150px;
+    height: 150px;
 }
 
 .albumDeets {
@@ -20,7 +21,7 @@
 
 .title {
     color:white;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -31,7 +32,7 @@
 
 .playButton {
     padding: 10px;
-    background-color: #1DB954;
+    background-color: #77A3C7;
     width: 120px;
     color:white;
     display: flex;

@@ -19,21 +19,22 @@ const App = () => {
     <>
       <Layout>
         <Layout>
-          <Sider width={300} className="sideBar">
+          <Sider width={120} className="sideBar">
             <img src={Spotify} alt="Logo" className="logo"></img>
             <div className="searchBar">
               <span> Search </span>
-              <SearchOutlined style={{ fontSize: "30px" }} />
+           
             </div>
             <Link to="/">
-            <p style={{ color: "#1DB954" }}> Home </p>
+            <p style={{ color: "#77A3C7" }}> Home </p>
             </Link>
             <p> Your Music </p>
             <div className="recentPlayed">
               <p className="recentTitle">RECENTLY PLAYED</p>
               <div className="install">
-                <span> Install App </span>
-                <DownCircleOutlined style={{ fontSize: "30px" }} />
+                <span style={{ fontSize: "12px" }} > Install App Coming Soon! </span>
+                
+                <DownCircleOutlined style={{ fontSize: "20px" }} />
               </div>
             </div>
           </Sider>

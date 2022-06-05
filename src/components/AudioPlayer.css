@@ -1,5 +1,5 @@
 .volume {
-    width:100px;
+    width:40px;
   }
   
 .soundDiv {
@@ -7,7 +7,7 @@
     gap:15px;
     font-size: 20px;
     align-items:center;
-    width: 300px;
+    width: 400px;
     justify-content: end;
   }
 
@@ -38,11 +38,11 @@
 }
 
 .progress {
-    width:400px;
+    width:100px;
 }
 
 .progress .ant-slider-track {
-    background-color: #A7A7A7;
+    background-color: #ffffff;
 }
 
 .progress .ant-slider-handle {
@@ -54,10 +54,10 @@
 }
 
 .songTitle {
-    font-size: 16px;
+    font-size: 12px;
     color: white;
 }
 
 .songAlbum {
-    font-size: 12px;
+    font-size: 8px;
 }

@@ -89,11 +89,11 @@ const Album = ({ setNftAlbum }) => {
             className="openButton"
             onClick={() =>
               window.open(
-                `https://testnets.opensea.io/assets/mumbai/${albumDetails.contract}/1`
+                `https://opensea.io/collection/1st-auns-nft-album`
               )
             }
           >
-            OpenSea
+            AUNS NFTs
             <img src={Opensea} className="openLogo" />
           </div>
         </div>
